@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    border: 1px 
+
+}
+ html,body{
+    height: 100%;
+ }
+ html{
+   background-color: #5CADAD;
+ }
+ h1,h2{
+    margin: 0;
+ }
+ .wrapper{
+
+    height:100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    background-color: #5CADAD;
+    background-color: linear-gradient(#5CADAD,#FDFFFF);
+ }
+ .product{
+   width: 1200px;
+   height: auto;
+   background-color: #FDFFFF;
+   box-shadow: 0 20px 80px 0 rgba(0,0,0,0.5);
+   display: flex; /* 讓 info 和 img 並排 */
+   align-items: flex-start; /* 從上方對齊 */
+   gap: 20px; /* 文字與圖片之間的間距 */
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.product .info{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 48px 36px;
+    background-color: aliceblue;
+    height: 100%;
+    font-size:  12px;
+}
+ 
+ .product .chainfo .chainfo2{
+    font-size: 20px;
+ }
+
+ .leveldata-title{
+   width: 1200px;
+   height: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid#000;
+   text-align: center;
+   background-color: #FDFFFF;
+   
+}
+
+.data-container{
+   width: 1200px;
+   height: auto;
+   background-color: #FDFFFF;
+   box-shadow: 0 20px 80px 0 rgba(0,0,0,0.5);
+   align-items: flex-start; /* 從上方對齊 */
+   gap: 20px; /* 文字與圖片之間的間距 */
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .table{
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ th, td {
+   border: 1px solid black; /* 設置邊框 */
+   padding: 10px; /* 增加內邊距 */
+   text-align: center; /* 置中對齊 */
+ }
+.levelitem-title{
+   
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid#000;
+   text-align: center;
+   background-color: #FDFFFF;
+}
+.skill-title{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid#000;
+   text-align: center;
+   background-color: #FDFFFF;
+
+/*專案進度 
+使表格置中
+彈性表格(隨視窗變)
